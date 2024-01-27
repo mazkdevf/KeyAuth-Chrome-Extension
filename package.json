@@ -1,0 +1,45 @@
+{
+  "name": "keyauth-chrome-extension-example",
+  "version": "1.0.0",
+  "author": "mazkdevf",
+  "description": "Simple example of KeyAuth Authentication for Chrome Extensions using Vite and TypeScript",
+  "type": "module",
+  "engines": {
+    "node": ">=14.18.0"
+  },
+  "KeyAuth": {
+    "AppName": "",
+    "OwnerId": "",
+    "Version": "1.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "fmt": "prettier --write '**/*.{ts,json,css,scss,md}'"
+  },
+  "devDependencies": {
+    "@crxjs/vite-plugin": "^2.0.0-beta.19",
+    "@types/chrome": "^0.0.246",
+    "prettier": "^3.0.3",
+    "typescript": "^5.2.2",
+    "vite": "^4.4.11",
+    "vite-plugin-javascript-obfuscator": "^3.1.0"
+  },
+  "keywords": [
+    "keyauth",
+    "chrome",
+    "example",
+    "extension",
+    "vite",
+    "typescript"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mazkdevf/KeyAuth-Chrome-Extension.git"
+  },
+  "license": "Elastic License 2.0",
+  "bugs": {
+    "url": "https://github.com/mazkdevf/KeyAuth-Chrome-Extension/issues"
+  },
+  "homepage": "https://github.com/mazkdevf/KeyAuth-Chrome-Extension#readme"
+}
