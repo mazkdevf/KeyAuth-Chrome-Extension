@@ -9,7 +9,7 @@
 2. Change or configurate the name of your extension on `src/manifest`.
 3. Run `npm install` to install the dependencies.
 
-## Preview
+## Preview of React version coming in future :)
 
 
 ![img](https://github.com/mazkdevf/KeyAuth-Chrome-Extension/assets/79049205/5f8edf56-267a-4ae5-ac44-1725fa59ee78)
